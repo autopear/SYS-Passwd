@@ -1,0 +1,23 @@
+Change password for root and mobile on jailbroken iOS devices.
+
+Support iPhone and iPad, firmware above 3.0.
+
+
+Rename "SYS Passwd" after compilation to "SYS_Passwd" and copy it to the deb package's work place.
+
+Copy "SYS Passwd" under project's directory to deb package's work place.
+
+Give executable permission to both "SYS Passwd" and "SYS_Passwd".
+
+As the app must be as root, you need to set sticky permission to "SYS_Passwd".
+
+Use these commands:
+	chmod +x SYS_Passwd "SYS Passwd"
+	chmod +s SYS_Passwd
+	
+
+The code to change password is obtained and modified from:
+http://www.opensource.apple.com/source/system_cmds/system_cmds-496/chkpasswd.tproj/
+
+Thank hhyytt and rpetrich for the help with coding.
+Thank cdsq for testing.

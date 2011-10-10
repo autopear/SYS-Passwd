@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D7539A9414422F1500A8D39D /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = D7539A8C14422F1500A8D39D /* Default-Landscape~ipad.png */; };
+		D7539A9514422F1500A8D39D /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = D7539A8D14422F1500A8D39D /* Default-Portrait~ipad.png */; };
+		D7539A9614422F1500A8D39D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D7539A8E14422F1500A8D39D /* Default.png */; };
+		D7539A9714422F1500A8D39D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D7539A8F14422F1500A8D39D /* Default@2x.png */; };
+		D7539A9814422F1500A8D39D /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D7539A9014422F1500A8D39D /* icon.png */; };
+		D7539A9914422F1500A8D39D /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D7539A9114422F1500A8D39D /* icon@2x.png */; };
+		D7539A9A14422F1500A8D39D /* icon72x72.png in Resources */ = {isa = PBXBuildFile; fileRef = D7539A9214422F1500A8D39D /* icon72x72.png */; };
+		D7539A9B14422F1500A8D39D /* icon72x72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D7539A9314422F1500A8D39D /* icon72x72@2x.png */; };
+		D7539ADA14422F9C00A8D39D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D7539AC714422F9C00A8D39D /* InfoPlist.strings */; };
+		D7539ADB14422F9C00A8D39D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D7539AC914422F9C00A8D39D /* Localizable.strings */; };
+		D7539ADC14422F9C00A8D39D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D7539ACC14422F9C00A8D39D /* InfoPlist.strings */; };
+		D7539ADD14422F9C00A8D39D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D7539ACE14422F9C00A8D39D /* Localizable.strings */; };
+		D7539ADE14422F9C00A8D39D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D7539AD114422F9C00A8D39D /* InfoPlist.strings */; };
+		D7539ADF14422F9C00A8D39D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D7539AD314422F9C00A8D39D /* Localizable.strings */; };
+		D7539AE014422F9C00A8D39D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D7539AD614422F9C00A8D39D /* InfoPlist.strings */; };
+		D7539AE114422F9C00A8D39D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D7539AD814422F9C00A8D39D /* Localizable.strings */; };
+		D7B2049514422A3300F2A52A /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7B2049614422A3300F2A52A /* MainWindow-iPad.xib */; };
+		D7B2049714422A6100F2A52A /* SYS_PasswdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7B2049814422A6100F2A52A /* SYS_PasswdViewController.xib */; };
+		D7B2049914422A6A00F2A52A /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7B2049A14422A6A00F2A52A /* MainWindow.xib */; };
+		D7C30A07143837E6000A2F3F /* stringops.c in Sources */ = {isa = PBXBuildFile; fileRef = D7C30A04143837E6000A2F3F /* stringops.c */; };
+		D7C30A0F14386EBF000A2F3F /* file_passwd.c in Sources */ = {isa = PBXBuildFile; fileRef = D7C30A0D14386EBE000A2F3F /* file_passwd.c */; };
+		D7E031131433947E009529B2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E031121433947E009529B2 /* UIKit.framework */; };
+		D7E031151433947E009529B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E031141433947E009529B2 /* Foundation.framework */; };
+		D7E031171433947E009529B2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E031161433947E009529B2 /* CoreGraphics.framework */; };
+		D7E0311F1433947E009529B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E0311E1433947E009529B2 /* main.m */; };
+		D7E031231433947E009529B2 /* SYS_PasswdAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E031221433947E009529B2 /* SYS_PasswdAppDelegate.m */; };
+		D7E031291433947E009529B2 /* SYS_PasswdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E031281433947E009529B2 /* SYS_PasswdViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D7539A8C14422F1500A8D39D /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Landscape~ipad.png"; sourceTree = "<group>"; };
+		D7539A8D14422F1500A8D39D /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		D7539A8E14422F1500A8D39D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D7539A8F14422F1500A8D39D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		D7539A9014422F1500A8D39D /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		D7539A9114422F1500A8D39D /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		D7539A9214422F1500A8D39D /* icon72x72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon72x72.png; sourceTree = "<group>"; };
+		D7539A9314422F1500A8D39D /* icon72x72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon72x72@2x.png"; sourceTree = "<group>"; };
+		D7539AC814422F9C00A8D39D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
+		D7539ACA14422F9C00A8D39D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Localizable.strings; sourceTree = "<group>"; };
+		D7539ACD14422F9C00A8D39D /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = InfoPlist.strings; sourceTree = "<group>"; };
+		D7539ACF14422F9C00A8D39D /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = Localizable.strings; sourceTree = "<group>"; };
+		D7539AD214422F9C00A8D39D /* zh_CN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh_CN; path = InfoPlist.strings; sourceTree = "<group>"; };
+		D7539AD414422F9C00A8D39D /* zh_CN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh_CN; path = Localizable.strings; sourceTree = "<group>"; };
+		D7539AD714422F9C00A8D39D /* zh_TW */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh_TW; path = InfoPlist.strings; sourceTree = "<group>"; };
+		D7539AD914422F9C00A8D39D /* zh_TW */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh_TW; path = Localizable.strings; sourceTree = "<group>"; };
+		D7B2049614422A3300F2A52A /* MainWindow-iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "MainWindow-iPad.xib"; sourceTree = "<group>"; };
+		D7B2049814422A6100F2A52A /* SYS_PasswdViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SYS_PasswdViewController.xib; sourceTree = "<group>"; };
+		D7B2049A14422A6A00F2A52A /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		D7C30A04143837E6000A2F3F /* stringops.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = stringops.c; sourceTree = "<group>"; };
+		D7C30A05143837E6000A2F3F /* stringops.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stringops.h; sourceTree = "<group>"; };
+		D7C30A0D14386EBE000A2F3F /* file_passwd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = file_passwd.c; sourceTree = "<group>"; };
+		D7C30A0E14386EBE000A2F3F /* file_passwd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = file_passwd.h; sourceTree = "<group>"; };
+		D7E0310E1433947E009529B2 /* SYS Passwd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SYS Passwd.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7E031121433947E009529B2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D7E031141433947E009529B2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D7E031161433947E009529B2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D7E0311A1433947E009529B2 /* SYS Passwd-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SYS Passwd-Info.plist"; sourceTree = "<group>"; };
+		D7E0311E1433947E009529B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D7E031201433947E009529B2 /* SYS Passwd-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SYS Passwd-Prefix.pch"; sourceTree = "<group>"; };
+		D7E031211433947E009529B2 /* SYS_PasswdAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYS_PasswdAppDelegate.h; sourceTree = "<group>"; };
+		D7E031221433947E009529B2 /* SYS_PasswdAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYS_PasswdAppDelegate.m; sourceTree = "<group>"; };
+		D7E031271433947E009529B2 /* SYS_PasswdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYS_PasswdViewController.h; sourceTree = "<group>"; };
+		D7E031281433947E009529B2 /* SYS_PasswdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYS_PasswdViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7E0310B1433947E009529B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7E031131433947E009529B2 /* UIKit.framework in Frameworks */,
+				D7E031151433947E009529B2 /* Foundation.framework in Frameworks */,
+				D7E031171433947E009529B2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D7539AC614422F9C00A8D39D /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				D7539AC714422F9C00A8D39D /* InfoPlist.strings */,
+				D7539AC914422F9C00A8D39D /* Localizable.strings */,
+			);
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+		D7539ACB14422F9C00A8D39D /* ja.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				D7539ACC14422F9C00A8D39D /* InfoPlist.strings */,
+				D7539ACE14422F9C00A8D39D /* Localizable.strings */,
+			);
+			path = ja.lproj;
+			sourceTree = "<group>";
+		};
+		D7539AD014422F9C00A8D39D /* zh_CN.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				D7539AD114422F9C00A8D39D /* InfoPlist.strings */,
+				D7539AD314422F9C00A8D39D /* Localizable.strings */,
+			);
+			path = zh_CN.lproj;
+			sourceTree = "<group>";
+		};
+		D7539AD514422F9C00A8D39D /* zh_TW.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				D7539AD614422F9C00A8D39D /* InfoPlist.strings */,
+				D7539AD814422F9C00A8D39D /* Localizable.strings */,
+			);
+			path = zh_TW.lproj;
+			sourceTree = "<group>";
+		};
+		D7E031031433947D009529B2 = {
+			isa = PBXGroup;
+			children = (
+				D7E031181433947E009529B2 /* SYS Passwd */,
+				D7E031111433947E009529B2 /* Frameworks */,
+				D7E0310F1433947E009529B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D7E0310F1433947E009529B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7E0310E1433947E009529B2 /* SYS Passwd.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7E031111433947E009529B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7E031121433947E009529B2 /* UIKit.framework */,
+				D7E031141433947E009529B2 /* Foundation.framework */,
+				D7E031161433947E009529B2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D7E031181433947E009529B2 /* SYS Passwd */ = {
+			isa = PBXGroup;
+			children = (
+				D7C30A0D14386EBE000A2F3F /* file_passwd.c */,
+				D7C30A0E14386EBE000A2F3F /* file_passwd.h */,
+				D7C30A04143837E6000A2F3F /* stringops.c */,
+				D7C30A05143837E6000A2F3F /* stringops.h */,
+				D7E031321433948E009529B2 /* iPad */,
+				D7E031211433947E009529B2 /* SYS_PasswdAppDelegate.h */,
+				D7E031221433947E009529B2 /* SYS_PasswdAppDelegate.m */,
+				D7B2049A14422A6A00F2A52A /* MainWindow.xib */,
+				D7E031271433947E009529B2 /* SYS_PasswdViewController.h */,
+				D7E031281433947E009529B2 /* SYS_PasswdViewController.m */,
+				D7B2049814422A6100F2A52A /* SYS_PasswdViewController.xib */,
+				D7E031191433947E009529B2 /* Supporting Files */,
+			);
+			path = "SYS Passwd";
+			sourceTree = "<group>";
+		};
+		D7E031191433947E009529B2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7539AC614422F9C00A8D39D /* en.lproj */,
+				D7539ACB14422F9C00A8D39D /* ja.lproj */,
+				D7539AD014422F9C00A8D39D /* zh_CN.lproj */,
+				D7539AD514422F9C00A8D39D /* zh_TW.lproj */,
+				D7539A8C14422F1500A8D39D /* Default-Landscape~ipad.png */,
+				D7539A8D14422F1500A8D39D /* Default-Portrait~ipad.png */,
+				D7539A8E14422F1500A8D39D /* Default.png */,
+				D7539A8F14422F1500A8D39D /* Default@2x.png */,
+				D7539A9014422F1500A8D39D /* icon.png */,
+				D7539A9114422F1500A8D39D /* icon@2x.png */,
+				D7539A9214422F1500A8D39D /* icon72x72.png */,
+				D7539A9314422F1500A8D39D /* icon72x72@2x.png */,
+				D7E0311A1433947E009529B2 /* SYS Passwd-Info.plist */,
+				D7E0311E1433947E009529B2 /* main.m */,
+				D7E031201433947E009529B2 /* SYS Passwd-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D7E031321433948E009529B2 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				D7B2049614422A3300F2A52A /* MainWindow-iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7E0310D1433947E009529B2 /* SYS Passwd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7E0312F1433947E009529B2 /* Build configuration list for PBXNativeTarget "SYS Passwd" */;
+			buildPhases = (
+				D7E0310A1433947E009529B2 /* Sources */,
+				D7E0310B1433947E009529B2 /* Frameworks */,
+				D7E0310C1433947E009529B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SYS Passwd";
+			productName = "SYS Passwd";
+			productReference = D7E0310E1433947E009529B2 /* SYS Passwd.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7E031051433947D009529B2 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = D7E031081433947D009529B2 /* Build configuration list for PBXProject "SYS Passwd" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				"zh-Hans",
+				"zh-Hant",
+				ja,
+				zh_CN,
+				zh_TW,
+			);
+			mainGroup = D7E031031433947D009529B2;
+			productRefGroup = D7E0310F1433947E009529B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7E0310D1433947E009529B2 /* SYS Passwd */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7E0310C1433947E009529B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7B2049914422A6A00F2A52A /* MainWindow.xib in Resources */,
+				D7B2049714422A6100F2A52A /* SYS_PasswdViewController.xib in Resources */,
+				D7B2049514422A3300F2A52A /* MainWindow-iPad.xib in Resources */,
+				D7539A9414422F1500A8D39D /* Default-Landscape~ipad.png in Resources */,
+				D7539A9514422F1500A8D39D /* Default-Portrait~ipad.png in Resources */,
+				D7539A9614422F1500A8D39D /* Default.png in Resources */,
+				D7539A9714422F1500A8D39D /* Default@2x.png in Resources */,
+				D7539A9814422F1500A8D39D /* icon.png in Resources */,
+				D7539A9914422F1500A8D39D /* icon@2x.png in Resources */,
+				D7539A9A14422F1500A8D39D /* icon72x72.png in Resources */,
+				D7539A9B14422F1500A8D39D /* icon72x72@2x.png in Resources */,
+				D7539ADA14422F9C00A8D39D /* InfoPlist.strings in Resources */,
+				D7539ADB14422F9C00A8D39D /* Localizable.strings in Resources */,
+				D7539ADC14422F9C00A8D39D /* InfoPlist.strings in Resources */,
+				D7539ADD14422F9C00A8D39D /* Localizable.strings in Resources */,
+				D7539ADE14422F9C00A8D39D /* InfoPlist.strings in Resources */,
+				D7539ADF14422F9C00A8D39D /* Localizable.strings in Resources */,
+				D7539AE014422F9C00A8D39D /* InfoPlist.strings in Resources */,
+				D7539AE114422F9C00A8D39D /* Localizable.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7E0310A1433947E009529B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7E0311F1433947E009529B2 /* main.m in Sources */,
+				D7E031231433947E009529B2 /* SYS_PasswdAppDelegate.m in Sources */,
+				D7E031291433947E009529B2 /* SYS_PasswdViewController.m in Sources */,
+				D7C30A07143837E6000A2F3F /* stringops.c in Sources */,
+				D7C30A0F14386EBF000A2F3F /* file_passwd.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D7539AC714422F9C00A8D39D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7539AC814422F9C00A8D39D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D7539AC914422F9C00A8D39D /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7539ACA14422F9C00A8D39D /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		D7539ACC14422F9C00A8D39D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7539ACD14422F9C00A8D39D /* ja */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D7539ACE14422F9C00A8D39D /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7539ACF14422F9C00A8D39D /* ja */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		D7539AD114422F9C00A8D39D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7539AD214422F9C00A8D39D /* zh_CN */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D7539AD314422F9C00A8D39D /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7539AD414422F9C00A8D39D /* zh_CN */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		D7539AD614422F9C00A8D39D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7539AD714422F9C00A8D39D /* zh_TW */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D7539AD814422F9C00A8D39D /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7539AD914422F9C00A8D39D /* zh_TW */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7E0312D1433947E009529B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				SDKROOT = iphoneos4.3;
+			};
+			name = Debug;
+		};
+		D7E0312E1433947E009529B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos4.3;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7E031301433947E009529B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_OPENMP_SUPPORT = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SYS Passwd/SYS Passwd-Prefix.pch";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "SYS Passwd/SYS Passwd-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D7E031311433947E009529B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_OPENMP_SUPPORT = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SYS Passwd/SYS Passwd-Prefix.pch";
+				GCC_VERSION = "";
+				INFOPLIST_FILE = "SYS Passwd/SYS Passwd-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7E031081433947D009529B2 /* Build configuration list for PBXProject "SYS Passwd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7E0312D1433947E009529B2 /* Debug */,
+				D7E0312E1433947E009529B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7E0312F1433947E009529B2 /* Build configuration list for PBXNativeTarget "SYS Passwd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7E031301433947E009529B2 /* Debug */,
+				D7E031311433947E009529B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7E031051433947D009529B2 /* Project object */;
+}
