@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 45;
+	objectVersion = 46;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -49,9 +49,9 @@
 		D7539AD414422F9C00A8D39D /* zh_CN */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh_CN; path = Localizable.strings; sourceTree = "<group>"; };
 		D7539AD714422F9C00A8D39D /* zh_TW */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh_TW; path = InfoPlist.strings; sourceTree = "<group>"; };
 		D7539AD914422F9C00A8D39D /* zh_TW */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = zh_TW; path = Localizable.strings; sourceTree = "<group>"; };
-		D7B2049614422A3300F2A52A /* MainWindow-iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "MainWindow-iPad.xib"; sourceTree = "<group>"; };
-		D7B2049814422A6100F2A52A /* SYS_PasswdViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SYS_PasswdViewController.xib; sourceTree = "<group>"; };
-		D7B2049A14422A6A00F2A52A /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		D7B2049614422A3300F2A52A /* MainWindow-iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "MainWindow-iPad.xib"; path = "SYS Passwd/MainWindow-iPad.xib"; sourceTree = SOURCE_ROOT; };
+		D7B2049814422A6100F2A52A /* SYS_PasswdViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SYS_PasswdViewController.xib; path = "SYS Passwd/SYS_PasswdViewController.xib"; sourceTree = SOURCE_ROOT; };
+		D7B2049A14422A6A00F2A52A /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainWindow.xib; path = "SYS Passwd/MainWindow.xib"; sourceTree = SOURCE_ROOT; };
 		D7C30A04143837E6000A2F3F /* stringops.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = stringops.c; sourceTree = "<group>"; };
 		D7C30A05143837E6000A2F3F /* stringops.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stringops.h; sourceTree = "<group>"; };
 		D7C30A0D14386EBE000A2F3F /* file_passwd.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = file_passwd.c; sourceTree = "<group>"; };
@@ -62,7 +62,7 @@
 		D7E031161433947E009529B2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		D7E0311A1433947E009529B2 /* SYS Passwd-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SYS Passwd-Info.plist"; sourceTree = "<group>"; };
 		D7E0311E1433947E009529B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D7E031201433947E009529B2 /* SYS Passwd-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SYS Passwd-Prefix.pch"; sourceTree = "<group>"; };
+		D7E031201433947E009529B2 /* SYS_Passwd-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SYS_Passwd-Prefix.pch"; sourceTree = "<group>"; };
 		D7E031211433947E009529B2 /* SYS_PasswdAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYS_PasswdAppDelegate.h; sourceTree = "<group>"; };
 		D7E031221433947E009529B2 /* SYS_PasswdAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SYS_PasswdAppDelegate.m; sourceTree = "<group>"; };
 		D7E031271433947E009529B2 /* SYS_PasswdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SYS_PasswdViewController.h; sourceTree = "<group>"; };
@@ -172,7 +172,7 @@
 				D7539A9314422F1500A8D39D /* icon72x72@2x.png */,
 				D7E0311A1433947E009529B2 /* SYS Passwd-Info.plist */,
 				D7E0311E1433947E009529B2 /* main.m */,
-				D7E031201433947E009529B2 /* SYS Passwd-Prefix.pch */,
+				D7E031201433947E009529B2 /* SYS_Passwd-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -210,8 +210,11 @@
 /* Begin PBXProject section */
 		D7E031051433947D009529B2 /* Project object */ = {
 			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0410;
+			};
 			buildConfigurationList = D7E031081433947D009529B2 /* Build configuration list for PBXProject "SYS Passwd" */;
-			compatibilityVersion = "Xcode 3.1";
+			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -329,7 +332,7 @@
 		D7E0312D1433947E009529B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
@@ -346,14 +349,14 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
-				SDKROOT = iphoneos4.3;
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
 		D7E0312E1433947E009529B2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = YES;
@@ -364,7 +367,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				SDKROOT = iphoneos4.3;
+				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -374,8 +377,8 @@
 			buildSettings = {
 				ENABLE_OPENMP_SUPPORT = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SYS Passwd/SYS Passwd-Prefix.pch";
-				GCC_VERSION = "";
+				GCC_PREFIX_HEADER = "SYS Passwd/SYS_Passwd-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				INFOPLIST_FILE = "SYS Passwd/SYS Passwd-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -389,8 +392,8 @@
 			buildSettings = {
 				ENABLE_OPENMP_SUPPORT = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SYS Passwd/SYS Passwd-Prefix.pch";
-				GCC_VERSION = "";
+				GCC_PREFIX_HEADER = "SYS Passwd/SYS_Passwd-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
 				INFOPLIST_FILE = "SYS Passwd/SYS Passwd-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
