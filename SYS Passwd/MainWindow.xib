@@ -2,10 +2,10 @@
 <archive type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="7.10">
 	<data>
 		<int key="IBDocument.SystemTarget">768</int>
-		<string key="IBDocument.SystemVersion">11B26</string>
+		<string key="IBDocument.SystemVersion">11C74</string>
 		<string key="IBDocument.InterfaceBuilderVersion">1617</string>
-		<string key="IBDocument.AppKitVersion">1138</string>
-		<string key="IBDocument.HIToolboxVersion">566.00</string>
+		<string key="IBDocument.AppKitVersion">1138.23</string>
+		<string key="IBDocument.HIToolboxVersion">567.00</string>
 		<object class="NSMutableDictionary" key="IBDocument.PluginVersions">
 			<string key="NS.key.0">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 			<string key="NS.object.0">534</string>
@@ -326,23 +326,23 @@
 						</object>
 						<object class="IBUIButton" id="5152426">
 							<reference key="NSNextResponder" ref="285921139"/>
-							<int key="NSvFlags">292</int>
+							<int key="NSvFlags">293</int>
 							<string key="NSFrame">{{83, 222}, {155, 37}}</string>
 							<reference key="NSSuperview" ref="285921139"/>
-							<reference key="NSNextKeyView" ref="392236711"/>
+							<reference key="NSNextKeyView" ref="747913853"/>
 							<string key="NSReuseIdentifierKey">_NS:222</string>
 							<bool key="IBUIOpaque">NO</bool>
 							<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 							<int key="IBUIContentHorizontalAlignment">0</int>
 							<int key="IBUIContentVerticalAlignment">0</int>
-							<object class="NSFont" key="IBUIFont">
+							<object class="NSFont" key="IBUIFont" id="723114735">
 								<string key="NSName">Helvetica-Bold</string>
 								<double key="NSSize">15</double>
 								<int key="NSfFlags">16</int>
 							</object>
 							<int key="IBUIButtonType">1</int>
 							<string key="IBUINormalTitle">Change Password</string>
-							<object class="NSColor" key="IBUIHighlightedTitleColor">
+							<object class="NSColor" key="IBUIHighlightedTitleColor" id="863508023">
 								<int key="NSColorSpace">3</int>
 								<bytes key="NSWhite">MQA</bytes>
 							</object>
@@ -350,7 +350,7 @@
 								<int key="NSColorSpace">1</int>
 								<bytes key="NSRGB">MC4xOTYwNzg0MzQ2IDAuMzA5ODAzOTMyOSAwLjUyMTU2ODY1NgA</bytes>
 							</object>
-							<object class="NSColor" key="IBUINormalTitleShadowColor">
+							<object class="NSColor" key="IBUINormalTitleShadowColor" id="937988620">
 								<int key="NSColorSpace">3</int>
 								<bytes key="NSWhite">MC41AA</bytes>
 							</object>
@@ -358,7 +358,7 @@
 						<object class="IBUILabel" id="392236711">
 							<reference key="NSNextResponder" ref="285921139"/>
 							<int key="NSvFlags">292</int>
-							<string key="NSFrame">{{0, 319}, {320, 21}}</string>
+							<string key="NSFrame">{{0, 284}, {320, 21}}</string>
 							<reference key="NSSuperview" ref="285921139"/>
 							<reference key="NSNextKeyView" ref="642567285"/>
 							<string key="NSReuseIdentifierKey">_NS:311</string>
@@ -380,8 +380,9 @@
 						<object class="IBUILabel" id="642567285">
 							<reference key="NSNextResponder" ref="285921139"/>
 							<int key="NSvFlags">292</int>
-							<string key="NSFrame">{{0, 339}, {320, 21}}</string>
+							<string key="NSFrame">{{0, 304}, {320, 21}}</string>
 							<reference key="NSSuperview" ref="285921139"/>
+							<reference key="NSNextKeyView"/>
 							<string key="NSReuseIdentifierKey">_NS:311</string>
 							<bool key="IBUIOpaque">NO</bool>
 							<bool key="IBUIClipsSubviews">YES</bool>
@@ -400,6 +401,27 @@
 							<int key="IBUINumberOfLines">2</int>
 							<int key="IBUITextAlignment">1</int>
 							<int key="IBUILineBreakMode">2</int>
+						</object>
+						<object class="IBUIButton" id="747913853">
+							<reference key="NSNextResponder" ref="285921139"/>
+							<int key="NSvFlags">-2147483355</int>
+							<string key="NSFrame">{{83, 423}, {155, 37}}</string>
+							<reference key="NSSuperview" ref="285921139"/>
+							<reference key="NSNextKeyView" ref="392236711"/>
+							<string key="NSReuseIdentifierKey">_NS:222</string>
+							<bool key="IBUIOpaque">NO</bool>
+							<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
+							<int key="IBUIContentHorizontalAlignment">0</int>
+							<int key="IBUIContentVerticalAlignment">0</int>
+							<reference key="IBUIFont" ref="723114735"/>
+							<int key="IBUIButtonType">1</int>
+							<string key="IBUINormalTitle">SSH Port</string>
+							<reference key="IBUIHighlightedTitleColor" ref="863508023"/>
+							<object class="NSColor" key="IBUINormalTitleColor">
+								<int key="NSColorSpace">1</int>
+								<bytes key="NSRGB">MC4xOTYwNzg0MzQ2IDAuMzA5ODAzOTMyOSAwLjUyMTU2ODY1NgA</bytes>
+							</object>
+							<reference key="IBUINormalTitleShadowColor" ref="937988620"/>
 						</object>
 					</object>
 					<string key="NSFrame">{{0, 20}, {320, 460}}</string>
@@ -454,6 +476,7 @@ AAMAAAABAAEAAAFTAAMAAAAEAAACAgAAAAAACAAIAAgACAABAAEAAQABA</bytes>
 				<int key="NSvFlags">292</int>
 				<string key="NSFrameSize">{320, 480}</string>
 				<reference key="NSSuperview"/>
+				<reference key="NSNextKeyView"/>
 				<object class="NSColor" key="IBUIBackgroundColor">
 					<int key="NSColorSpace">1</int>
 					<bytes key="NSRGB">MSAxIDEAA</bytes>
@@ -665,6 +688,23 @@ AAMAAAABAAEAAAFTAAMAAAAEAAACAgAAAAAACAAIAAgACAABAAEAAQABA</bytes>
 					</object>
 					<int key="connectionID">106</int>
 				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">PortButton</string>
+						<reference key="source" ref="943309135"/>
+						<reference key="destination" ref="747913853"/>
+					</object>
+					<int key="connectionID">109</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchEventConnection" key="connection">
+						<string key="label">ChangeSSHPort:</string>
+						<reference key="source" ref="747913853"/>
+						<reference key="destination" ref="943309135"/>
+						<int key="IBEventType">7</int>
+					</object>
+					<int key="connectionID">110</int>
+				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
 				<object class="NSArray" key="orderedObjects">
@@ -714,11 +754,12 @@ AAMAAAABAAEAAAFTAAMAAAAEAAACAgAAAAAACAAIAAgACAABAAEAAQABA</bytes>
 							<reference ref="588229089"/>
 							<reference ref="187527866"/>
 							<reference ref="5152426"/>
-							<reference ref="392236711"/>
-							<reference ref="642567285"/>
 							<reference ref="121214010"/>
 							<reference ref="888734333"/>
 							<reference ref="987676654"/>
+							<reference ref="747913853"/>
+							<reference ref="392236711"/>
+							<reference ref="642567285"/>
 						</object>
 						<reference key="parent" ref="943309135"/>
 					</object>
@@ -813,6 +854,11 @@ AAMAAAABAAEAAAFTAAMAAAAEAAACAgAAAAAACAAIAAgACAABAAEAAQABA</bytes>
 						<reference key="object" ref="642567285"/>
 						<reference key="parent" ref="285921139"/>
 					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">107</int>
+						<reference key="object" ref="747913853"/>
+						<reference key="parent" ref="285921139"/>
+					</object>
 				</object>
 			</object>
 			<object class="NSMutableDictionary" key="flattenedProperties">
@@ -825,6 +871,7 @@ AAMAAAABAAEAAAFTAAMAAAAEAAACAgAAAAAACAAIAAgACAABAAEAAQABA</bytes>
 					<string>-2.IBPluginDependency</string>
 					<string>10.CustomClassName</string>
 					<string>10.IBPluginDependency</string>
+					<string>107.IBPluginDependency</string>
 					<string>12.IBPluginDependency</string>
 					<string>3.CustomClassName</string>
 					<string>3.IBPluginDependency</string>
@@ -854,6 +901,7 @@ AAMAAAABAAEAAAFTAAMAAAAEAAACAgAAAAAACAAIAAgACAABAAEAAQABA</bytes>
 					<string>UIResponder</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>SYS_PasswdViewController</string>
+					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 					<string>SYS_PasswdAppDelegate</string>
@@ -890,7 +938,7 @@ AAMAAAABAAEAAAFTAAMAAAAEAAACAgAAAAAACAAIAAgACAABAAEAAQABA</bytes>
 				<reference key="dict.values" ref="0"/>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">106</int>
+			<int key="maxID">110</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes"/>
 		<int key="IBDocument.localizationMode">0</int>

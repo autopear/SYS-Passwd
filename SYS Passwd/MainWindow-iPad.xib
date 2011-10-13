@@ -2,10 +2,10 @@
 <archive type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="8.00">
 	<data>
 		<int key="IBDocument.SystemTarget">800</int>
-		<string key="IBDocument.SystemVersion">11B26</string>
+		<string key="IBDocument.SystemVersion">11C74</string>
 		<string key="IBDocument.InterfaceBuilderVersion">1617</string>
-		<string key="IBDocument.AppKitVersion">1138</string>
-		<string key="IBDocument.HIToolboxVersion">566.00</string>
+		<string key="IBDocument.AppKitVersion">1138.23</string>
+		<string key="IBDocument.HIToolboxVersion">567.00</string>
 		<object class="NSMutableDictionary" key="IBDocument.PluginVersions">
 			<string key="NS.key.0">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 			<string key="NS.object.0">534</string>
@@ -264,6 +264,7 @@
 							<string key="NSFrame">{{373, 184}, {204, 31}}</string>
 							<reference key="NSSuperview" ref="375679089"/>
 							<reference key="NSWindow"/>
+							<reference key="NSNextKeyView" ref="279428536"/>
 							<string key="NSReuseIdentifierKey">_NS:310</string>
 							<bool key="IBUIOpaque">NO</bool>
 							<bool key="IBUIClipsSubviews">YES</bool>
@@ -290,23 +291,23 @@
 						<object class="IBUIButton" id="279428536">
 							<reference key="NSNextResponder" ref="375679089"/>
 							<int key="NSvFlags">293</int>
-							<string key="NSFrame">{{307, 240}, {155, 37}}</string>
+							<string key="NSFrame">{{307, 246}, {155, 37}}</string>
 							<reference key="NSSuperview" ref="375679089"/>
 							<reference key="NSWindow"/>
-							<reference key="NSNextKeyView" ref="457405209"/>
+							<reference key="NSNextKeyView" ref="314067675"/>
 							<string key="NSReuseIdentifierKey">_NS:237</string>
 							<bool key="IBUIOpaque">NO</bool>
 							<string key="targetRuntimeIdentifier">IBIPadFramework</string>
 							<int key="IBUIContentHorizontalAlignment">0</int>
 							<int key="IBUIContentVerticalAlignment">0</int>
-							<object class="NSFont" key="IBUIFont">
+							<object class="NSFont" key="IBUIFont" id="959377227">
 								<string key="NSName">Helvetica-Bold</string>
 								<double key="NSSize">15</double>
 								<int key="NSfFlags">16</int>
 							</object>
 							<int key="IBUIButtonType">1</int>
 							<string key="IBUINormalTitle">Change Password</string>
-							<object class="NSColor" key="IBUIHighlightedTitleColor">
+							<object class="NSColor" key="IBUIHighlightedTitleColor" id="913535549">
 								<int key="NSColorSpace">3</int>
 								<bytes key="NSWhite">MQA</bytes>
 							</object>
@@ -314,7 +315,7 @@
 								<int key="NSColorSpace">1</int>
 								<bytes key="NSRGB">MC4xOTYwNzg0MzQ2IDAuMzA5ODAzOTMyOSAwLjUyMTU2ODY1NgA</bytes>
 							</object>
-							<object class="NSColor" key="IBUINormalTitleShadowColor">
+							<object class="NSColor" key="IBUINormalTitleShadowColor" id="1023114832">
 								<int key="NSColorSpace">3</int>
 								<bytes key="NSWhite">MC41AA</bytes>
 							</object>
@@ -322,7 +323,7 @@
 						<object class="IBUILabel" id="457405209">
 							<reference key="NSNextResponder" ref="375679089"/>
 							<int key="NSvFlags">293</int>
-							<string key="NSFrame">{{0, 301}, {768, 21}}</string>
+							<string key="NSFrame">{{0, 305}, {768, 21}}</string>
 							<reference key="NSSuperview" ref="375679089"/>
 							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView" ref="363340978"/>
@@ -343,9 +344,10 @@
 						<object class="IBUILabel" id="363340978">
 							<reference key="NSNextResponder" ref="375679089"/>
 							<int key="NSvFlags">293</int>
-							<string key="NSFrame">{{0, 330}, {768, 21}}</string>
+							<string key="NSFrame">{{0, 334}, {768, 21}}</string>
 							<reference key="NSSuperview" ref="375679089"/>
 							<reference key="NSWindow"/>
+							<reference key="NSNextKeyView"/>
 							<string key="NSReuseIdentifierKey">_NS:327</string>
 							<bool key="IBUIOpaque">NO</bool>
 							<bool key="IBUIClipsSubviews">YES</bool>
@@ -383,6 +385,28 @@
 							<int key="IBUIBaselineAdjustment">1</int>
 							<float key="IBUIMinimumFontSize">10</float>
 							<int key="IBUITextAlignment">1</int>
+						</object>
+						<object class="IBUIButton" id="314067675">
+							<reference key="NSNextResponder" ref="375679089"/>
+							<int key="NSvFlags">-2147483355</int>
+							<string key="NSFrame">{{307, 363}, {155, 37}}</string>
+							<reference key="NSSuperview" ref="375679089"/>
+							<reference key="NSWindow"/>
+							<reference key="NSNextKeyView" ref="457405209"/>
+							<string key="NSReuseIdentifierKey">_NS:237</string>
+							<bool key="IBUIOpaque">NO</bool>
+							<string key="targetRuntimeIdentifier">IBIPadFramework</string>
+							<int key="IBUIContentHorizontalAlignment">0</int>
+							<int key="IBUIContentVerticalAlignment">0</int>
+							<reference key="IBUIFont" ref="959377227"/>
+							<int key="IBUIButtonType">1</int>
+							<string key="IBUINormalTitle">SSH Port</string>
+							<reference key="IBUIHighlightedTitleColor" ref="913535549"/>
+							<object class="NSColor" key="IBUINormalTitleColor">
+								<int key="NSColorSpace">1</int>
+								<bytes key="NSRGB">MC4xOTYwNzg0MzQ2IDAuMzA5ODAzOTMyOSAwLjUyMTU2ODY1NgA</bytes>
+							</object>
+							<reference key="IBUINormalTitleShadowColor" ref="1023114832"/>
 						</object>
 					</array>
 					<string key="NSFrame">{{0, 20}, {768, 1004}}</string>
@@ -4984,6 +5008,23 @@ AAgAAAAIAAIACAACAAAAAgAAAAEAAQABAAE</bytes>
 					</object>
 					<int key="connectionID">68</int>
 				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchOutletConnection" key="connection">
+						<string key="label">PortButton</string>
+						<reference key="source" ref="943309135"/>
+						<reference key="destination" ref="314067675"/>
+					</object>
+					<int key="connectionID">70</int>
+				</object>
+				<object class="IBConnectionRecord">
+					<object class="IBCocoaTouchEventConnection" key="connection">
+						<string key="label">ChangeSSHPort:</string>
+						<reference key="source" ref="314067675"/>
+						<reference key="destination" ref="943309135"/>
+						<int key="IBEventType">7</int>
+					</object>
+					<int key="connectionID">72</int>
+				</object>
 			</array>
 			<object class="IBMutableOrderedSet" key="objectRecords">
 				<array key="orderedObjects">
@@ -5032,14 +5073,15 @@ AAgAAAAIAAIACAACAAAAAgAAAAEAAQABAAE</bytes>
 							<reference ref="543271038"/>
 							<reference ref="158215526"/>
 							<reference ref="701203590"/>
-							<reference ref="279428536"/>
 							<reference ref="438722180"/>
 							<reference ref="814885087"/>
 							<reference ref="56757827"/>
-							<reference ref="457405209"/>
-							<reference ref="363340978"/>
 							<reference ref="75853452"/>
 							<reference ref="339108772"/>
+							<reference ref="457405209"/>
+							<reference ref="363340978"/>
+							<reference ref="314067675"/>
+							<reference ref="279428536"/>
 						</array>
 						<reference key="parent" ref="943309135"/>
 					</object>
@@ -5129,6 +5171,11 @@ AAgAAAAIAAIACAACAAAAAgAAAAEAAQABAAE</bytes>
 						<reference key="object" ref="363340978"/>
 						<reference key="parent" ref="375679089"/>
 					</object>
+					<object class="IBObjectRecord">
+						<int key="objectID">69</int>
+						<reference key="object" ref="314067675"/>
+						<reference key="parent" ref="375679089"/>
+					</object>
 				</array>
 			</object>
 			<dictionary class="NSMutableDictionary" key="flattenedProperties">
@@ -5167,12 +5214,13 @@ AAgAAAAIAAIACAACAAAAAgAAAAEAAQABAAE</bytes>
 				<string key="31.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="32.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 				<string key="33.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
+				<string key="69.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 			</dictionary>
 			<dictionary class="NSMutableDictionary" key="unlocalizedProperties"/>
 			<nil key="activeLocalization"/>
 			<dictionary class="NSMutableDictionary" key="localizations"/>
 			<nil key="sourceID"/>
-			<int key="maxID">68</int>
+			<int key="maxID">72</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -5204,6 +5252,7 @@ AAgAAAAIAAIACAACAAAAAgAAAAEAAQABAAE</bytes>
 					<dictionary class="NSMutableDictionary" key="actions">
 						<string key="About:">id</string>
 						<string key="ChangePassword:">id</string>
+						<string key="ChangeSSHPort:">id</string>
 						<string key="DismissKeyboard:">id</string>
 						<string key="Reset:">id</string>
 						<string key="SelectAccount:">id</string>
@@ -5215,6 +5264,10 @@ AAgAAAAIAAIACAACAAAAAgAAAAEAAQABAAE</bytes>
 						</object>
 						<object class="IBActionInfo" key="ChangePassword:">
 							<string key="name">ChangePassword:</string>
+							<string key="candidateClassName">id</string>
+						</object>
+						<object class="IBActionInfo" key="ChangeSSHPort:">
+							<string key="name">ChangeSSHPort:</string>
 							<string key="candidateClassName">id</string>
 						</object>
 						<object class="IBActionInfo" key="DismissKeyboard:">
@@ -5231,6 +5284,7 @@ AAgAAAAIAAIACAACAAAAAgAAAAEAAQABAAE</bytes>
 						</object>
 					</dictionary>
 					<dictionary class="NSMutableDictionary" key="outlets">
+						<string key="AboutAlert">UIAlertView</string>
 						<string key="AboutButton">UIBarButtonItem</string>
 						<string key="ChangeButton">UIButton</string>
 						<string key="CurrentLabel">UILabel</string>
@@ -5239,14 +5293,24 @@ AAgAAAAIAAIACAACAAAAAgAAAAEAAQABAAE</bytes>
 						<string key="Note1Label">UILabel</string>
 						<string key="Note2Label">UILabel</string>
 						<string key="OriginalPasswordTextBox">UITextField</string>
+						<string key="PasswdAlert">UIAlertView</string>
+						<string key="PortAlert">UIAlertView</string>
+						<string key="PortButton">UIButton</string>
+						<string key="PortField">UITextField</string>
+						<string key="ResetAlert">UIAlertView</string>
 						<string key="ResetButton">UIBarButtonItem</string>
 						<string key="RetypeLabel">UILabel</string>
 						<string key="RetypePasswordTextBox">UITextField</string>
+						<string key="SSHInstallAlert">UIAlertView</string>
 						<string key="SegmentedControl">UISegmentedControl</string>
 						<string key="SelectLabel">UILabel</string>
 						<string key="TitleLabel">UILabel</string>
 					</dictionary>
 					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
+						<object class="IBToOneOutletInfo" key="AboutAlert">
+							<string key="name">AboutAlert</string>
+							<string key="candidateClassName">UIAlertView</string>
+						</object>
 						<object class="IBToOneOutletInfo" key="AboutButton">
 							<string key="name">AboutButton</string>
 							<string key="candidateClassName">UIBarButtonItem</string>
@@ -5279,6 +5343,26 @@ AAgAAAAIAAIACAACAAAAAgAAAAEAAQABAAE</bytes>
 							<string key="name">OriginalPasswordTextBox</string>
 							<string key="candidateClassName">UITextField</string>
 						</object>
+						<object class="IBToOneOutletInfo" key="PasswdAlert">
+							<string key="name">PasswdAlert</string>
+							<string key="candidateClassName">UIAlertView</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="PortAlert">
+							<string key="name">PortAlert</string>
+							<string key="candidateClassName">UIAlertView</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="PortButton">
+							<string key="name">PortButton</string>
+							<string key="candidateClassName">UIButton</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="PortField">
+							<string key="name">PortField</string>
+							<string key="candidateClassName">UITextField</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="ResetAlert">
+							<string key="name">ResetAlert</string>
+							<string key="candidateClassName">UIAlertView</string>
+						</object>
 						<object class="IBToOneOutletInfo" key="ResetButton">
 							<string key="name">ResetButton</string>
 							<string key="candidateClassName">UIBarButtonItem</string>
@@ -5290,6 +5374,10 @@ AAgAAAAIAAIACAACAAAAAgAAAAEAAQABAAE</bytes>
 						<object class="IBToOneOutletInfo" key="RetypePasswordTextBox">
 							<string key="name">RetypePasswordTextBox</string>
 							<string key="candidateClassName">UITextField</string>
+						</object>
+						<object class="IBToOneOutletInfo" key="SSHInstallAlert">
+							<string key="name">SSHInstallAlert</string>
+							<string key="candidateClassName">UIAlertView</string>
 						</object>
 						<object class="IBToOneOutletInfo" key="SegmentedControl">
 							<string key="name">SegmentedControl</string>
